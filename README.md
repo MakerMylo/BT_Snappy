@@ -10,8 +10,8 @@ This assumes you're using Snappy with AFC and using an MG996R Servo.
 Ensure you have a Servo named 'cut' defined in your AFC Hardware file like so:
 ```
 [servo cut]
-pin: AFC:PA13 # Correct Pin for MMB
-maximum_servo_angle: 180	# Set this to 60 for a 60° Servo
+pin: AFC:PA13               # Correct Pin for MMB
+maximum_servo_angle: 180  	# Set this to 60 for a 60° Servo
 minimum_pulse_width: 0.0005	# Adapt these for your servo
 maximum_pulse_width: 0.0025	# Adapt these for your servo
 ```
@@ -37,6 +37,11 @@ Every link in the Bill of Materials is an affiliate link, This costs you nothing
 
 - EREC Filament Cutter BOM Kit: [AE Link](https://s.click.aliexpress.com/e/_DBtMz8X)
 - Optionally you can also use a more powerful servo, I recommend this one: [AE Link](https://s.click.aliexpress.com/e/_DDc9vRH)
+
+Upcoming Changes
+===
+ - Filament Tip Collection Drawer
+ - Hood that covers the cutter to prevent tips firing off.
 
 Thank Me
 ===
