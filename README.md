@@ -2,6 +2,18 @@ Snappy Mod aka Snapping Turtle
 ===
 This is a modification for BoxTurtle based on the fantastic [EREC Cutter](https://github.com/kevinakasam/ERCF_Filament_Cutter) by [KevinAKASam](https://kevinakasam.com/).
 
+![Snappy](./images/snappy.png)
+
+Assembly
+===
+1. Follow the manual on the EREC project to build the cutter, the only difference is where it mounts.
+
+2. You can then fix it to your BoxTurtle using 3x M3x16 and 3xM3 Roll/Drop Nuts.
+
+3. Poke your PTFE tube through the cutter hole before attaching the blade holder and cut it flush with the face, on mine this was 16.3mm long.
+
+4. Do not remove the ECAS from your hub, this holds the PTFE in place.
+
 Config
 ===
 This assumes you're using Snappy with AFC and using an MG996R Servo.
@@ -35,7 +47,7 @@ Bill of Materials
 ===
 Every link in the Bill of Materials is an affiliate link, This costs you nothing to use but helps buy me some filament and trinkets to make this kind of mod.
 
-- EREC Filament Cutter BOM Kit: [AE Link](https://s.click.aliexpress.com/e/_DBtMz8X)
+- **Full** EREC Filament Cutter BOM Kit: [AE Link](https://s.click.aliexpress.com/e/_DBtMz8X)
 - Optionally you can also use a more powerful servo, I recommend this one: [AE Link](https://s.click.aliexpress.com/e/_DDc9vRH)
 
 Upcoming Changes
