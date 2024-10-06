@@ -55,6 +55,14 @@ Upcoming Changes
  - Filament Tip Collection Drawer
  - Hood that covers the cutter to prevent tips firing off.
 
+Extra Thanks To
+===
+Discord User @Blamm for the 15mm Hub STL.
+
+Contribute
+===
+Got a mod you'd like to see in the repo? Hit me up on Discord (@MakerMylo) and i'll gladly add it for you.
+
 Thank Me
 ===
 A few ways you can show your appreciation for my work:\
