@@ -48,7 +48,7 @@ Bill of Materials
 Every link in the Bill of Materials is an affiliate link, This costs you nothing to use but helps buy me some filament and trinkets to make this kind of mod.
 
 - **Full** EREC Filament Cutter BOM Kit: [AE Link](https://s.click.aliexpress.com/e/_DBtMz8X)
-- Optionally you can also use a more powerful servo, I recommend this one: [AE Link](https://s.click.aliexpress.com/e/_DDc9vRH)
+- Optionally you can also use a more powerful servo, I recommend this one: [AE Link](https://s.click.aliexpress.com/e/_DDc9vRH), Requires the 15mm Servo Hub file.
 
 Upcoming Changes
 ===
