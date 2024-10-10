@@ -14,6 +14,18 @@ Assembly
 
 4. Do not remove the ECAS from your hub, this holds the PTFE in place.
 
+Lid Assembly
+===
+1. Add 2x M3 5x5x4 Heatset Inserts to the SnappyLidA Part.
+
+2. Add 2x M3x20 (SHCS Works) Screws into SnappyLidB and screw the 2 halves together.
+
+3. Add 3x 6x3 Magnets to the inside of the lid if needed (For me they weren't, it was a nice friction fit).
+
+4. Add 4x 6x3 Magnets to the bottom of the lid to hold the tray.
+
+5. Add 4x 6x3 Magnets to the Tray (Ensuring they are oriented correctly to attract to the lid magnets).
+
 Config
 ===
 This assumes you're using Snappy with AFC and using an MG996R Servo.
@@ -32,14 +44,13 @@ maximum_pulse_width: 0.0025	# Adapt these for your servo
 Ensure that your AFC Config file has the correct hub_cut settings, like so:
 ```
 # HUB Cutting Settings
-hub_cut_active: 0
-hub_cut_dist: 200                 # How much filament do you want to cut off? (in MM)
-hub_cut_clear: 120                # How far should the filament be retracted back from the hub (in MM)
+hub_cut_active: True
+hub_cut_dist: 15               # How much filament to cut off (in mm).
+hub_cut_clear: 75              # How far the filament should retract back from the hub (in mm).
 hub_cut_min_length: 300.0
-hub_cut_servo_pass_angle: 10      # Bowden Aligned with the hole, able to load the toolhead.
-hub_cut_servo_clip_angle: 180     # Cutting action angle.
-hub_cut_servo_prep_angle: 80      # Align exit hole for cutting.
-hub_cut_confirm: 0                # Set to 1 to enable a second confirmation cut sweep of the servo.
+hub_cut_servo_pass_angle: 10    # Servo angle to align the Bowden tube with the hole for loading the toolhead.
+hub_cut_servo_clip_angle: 180   # Servo angle for cutting the filament.
+hub_cut_servo_prep_angle: 340    # Servo angle to prepare the filament for cutting (aligning the exit hole).
 ```
 And as a safety measure, add `SET_SERVO SERVO=cut ANGLE=10` at the very bottom of the file under the `[delayed_gcode welcome]` section, after `PREP`, this will ensure the servo is always in the correct spot on boot.
 
@@ -52,8 +63,8 @@ Every link in the Bill of Materials is an affiliate link, This costs you nothing
 
 Upcoming Changes
 ===
- - Filament Tip Collection Drawer
- - Hood that covers the cutter to prevent tips firing off.
+ - ~~Filament Tip Collection Drawer~~ - DONE
+ - ~~Hood that covers the cutter to prevent tips firing off.~~ - DONE
 
 Thank Me
 ===
