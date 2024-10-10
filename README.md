@@ -14,6 +14,8 @@ Assembly
 
 4. Do not remove the ECAS from your hub, this holds the PTFE in place.
 
+![SnappyBox](./images/snappy_box.png)
+
 Lid Assembly
 ===
 1. Add 2x M3 5x5x4 Heatset Inserts to the SnappyLidA Part.
