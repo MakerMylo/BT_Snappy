@@ -1,4 +1,4 @@
-Snappy Mod aka Snapping Turtle
+Snappy filament cutter for BoxTurtle.
 ===
 This is a modification for BoxTurtle based on the fantastic [EREC Cutter](https://github.com/kevinakasam/ERCF_Filament_Cutter) by [KevinAKASam](https://kevinakasam.com/).
 
@@ -67,6 +67,7 @@ Upcoming Changes
 ===
  - ~~Filament Tip Collection Drawer~~ - DONE
  - ~~Hood that covers the cutter to prevent tips firing off.~~ - DONE
+ - Remote Snappy+Hub.
 
 Extra Thanks To
 ===
